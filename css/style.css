@@ -699,6 +699,14 @@ form {
   margin-bottom: 6.4rem;
 }
 
+.none-link {
+  display: none;
+}
+.none-list {
+  display: flex;
+  
+}
+
 .some-ofimg {
   display: flex;
   gap: 8rem;
@@ -817,7 +825,118 @@ form {
     margin-left: -5px;
     margin-bottom: -240px;
   }
-  
+
+  .header-about-left- {
+    width: 327px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    margin-left: -150px;
+    margin-bottom: 40px;
+  }
+
+  .header-findthe-right- {
+    max-width: 327px;
+  }
+
+  .meet-heading {
+    display: none;
+  }
+
+  .nikitee {
+    margin-top: 150px;
+  }
+
+  .nikite {
+    width: 327px;
+    margin-left: -190px;
+    margin-bottom: 24px;
+  }
+
+  .nikite-imgtwo {
+    margin-left: 90px;
+  }
+
+  .nikite-img {
+    width: 56px;
+    height: 56px;
+    margin-top: 28px;
+    margin-left: 110px;
+  }
+
+  .some-ofimg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .some-of-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .header-inner-wrapper {
+    background-color: var(--secundary-police-blue-color);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 255px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-page-left,
+  .contact-page {
+    background-image: none;
+  }
+  .contact {
+    background-image: none;
+  }
+
+  .contact-page-left-h {
+    width: 327px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .contact-page-left-h3 {
+    width: 200px;
+    text-align: center;
+    margin-left: 60px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .main-build-right {
+    width: 327px;
+  }
+
+  .main-build-img {
+    margin-left: -160px;
+  }
+
+  .contact-page-right,
+  .right-input {
+    margin-left: -100px;
+    width: 327px;
+  }
+
+  .none-link {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: antiquewhite;
+    &:hover {
+      color: #f67e7e;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
