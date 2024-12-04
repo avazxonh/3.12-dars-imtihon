@@ -428,7 +428,7 @@ li {
 .footer-mobile {
   color: #ffffff;
   opacity: 60%;
-  width: 445px;
+  max-width: 280px;
 }
 .footer-mobile-item:hover {
   opacity: 50%;
@@ -704,7 +704,6 @@ form {
 }
 .none-list {
   display: flex;
-  
 }
 
 .some-ofimg {
@@ -940,6 +939,9 @@ form {
 }
 
 @media screen and (max-width: 768px) {
+  
+
+  
   .header {
     padding: 40px;
   }
@@ -1088,6 +1090,7 @@ form {
   }
 
   .footer-mobile {
+    max-width: 50px !important;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
   }
