@@ -428,7 +428,7 @@ li {
 .footer-mobile {
   color: #ffffff;
   opacity: 60%;
-  max-width: 280px;
+  width: 445px;
 }
 .footer-mobile-item:hover {
   opacity: 50%;
@@ -939,9 +939,6 @@ form {
 }
 
 @media screen and (max-width: 768px) {
-  
-
-  
   .header {
     padding: 40px;
   }
@@ -1090,7 +1087,7 @@ form {
   }
 
   .footer-mobile {
-    max-width: 50px !important;
+    max-width: 280px;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
   }
